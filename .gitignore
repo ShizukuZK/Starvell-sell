@@ -1,0 +1,14 @@
+# данные и секреты — никогда не в git
+storage/
+data/
+.env
+*.env
+config/settings.json
+
+# окружение и мусор
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log

@@ -1,0 +1,16 @@
+# Запуск на своём VPS:  docker compose up -d --build
+# Секреты — в файле .env рядом (см. .env.example), данные — в ./data
+services:
+  bot:
+    build: .
+    container_name: kosell-starvell-bot
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATA_DIR: /data
+    volumes:
+      - ./data:/data
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }

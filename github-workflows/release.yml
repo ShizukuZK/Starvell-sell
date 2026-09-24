@@ -1,0 +1,50 @@
+name: release
+
+# Выпуск версии: запустите release.bat 2.1.1 (или вручную: поменяйте
+# version.py и CHANGELOG.md, затем git tag v2.1.1 && git push --tags)
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Тег совпадает с version.py
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          VER=$(python -c "from version import VERSION; print(VERSION)")
+          if [ "$TAG" != "$VER" ]; then
+            echo "::error::тег v$TAG, а в version.py $VER"; exit 1
+          fi
+
+      - run: python -m pytest -q tests
+
+      - name: Описание из CHANGELOG.md
+        run: |
+          python - <<'PY'
+          import os, re
+          ver = os.environ["GITHUB_REF_NAME"].lstrip("v")
+          text = open("CHANGELOG.md", encoding="utf-8").read()
+          m = re.search(rf"^## \[?{re.escape(ver)}\]?.*?\n(.*?)(?=^## |\Z)", text, re.S | re.M)
+          notes = (m.group(1).strip() if m else "") or f"Версия {ver}"
+          open("notes.md", "w", encoding="utf-8").write(notes)
+          PY
+
+      - name: Архив без данных и секретов
+        run: git archive --format=zip --prefix=kosell-starvell-bot/ -o "bot-${GITHUB_REF_NAME}.zip" HEAD
+
+      - name: GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" --title "$GITHUB_REF_NAME" --notes-file notes.md "bot-${GITHUB_REF_NAME}.zip"

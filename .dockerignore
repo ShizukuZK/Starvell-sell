@@ -1,0 +1,14 @@
+storage/
+data/
+venv/
+.venv/
+.git/
+.github/
+tests/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.bat
+.env
+*.env
+github-workflows/

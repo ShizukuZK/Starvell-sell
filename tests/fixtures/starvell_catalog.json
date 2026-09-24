@@ -1,0 +1,804 @@
+{
+  "updated_at": 1790067527,
+  "rental_only": true,
+  "games": [
+    {
+      "id": 1,
+      "name": "Roblox",
+      "slug": "roblox",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 38,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 37,
+              "name": "Аренда",
+              "offers_seen": 8,
+              "sample_offer_id": 227338,
+              "price_min": 35.01,
+              "price_low5": [
+                35.01,
+                35.02,
+                35.03,
+                35.04,
+                35.05
+              ],
+              "attributes": [
+                {
+                  "id": "a640f0ef-3130-425a-88dd-b10554c1e61b",
+                  "name": "Почта подтверждена",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "8682a2f5-0e79-4884-b4ef-33ee6ca375e9",
+                      "name": "Да"
+                    }
+                  ]
+                },
+                {
+                  "id": "3963bf9c-44ee-4276-bfa3-3f645887a339",
+                  "name": "Способ получения",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "adf3f0b9-bb34-4b17-b2b4-98eb46ea55de",
+                      "name": "Полный доступ"
+                    },
+                    {
+                      "id": "d1983e85-e415-469a-abb1-aa90e9134cb3",
+                      "name": "Перепривязка"
+                    }
+                  ]
+                },
+                {
+                  "id": "aaf3643f-3e17-4b68-911f-0f116a31347a",
+                  "name": "Режим",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "5202d8a3-1129-4d09-846a-ea3096c8c07a",
+                      "name": "Другой режим"
+                    },
+                    {
+                      "id": "5ba80b21-ae56-46e6-94d9-d9bff809dd11",
+                      "name": "Steal a Brainrot"
+                    },
+                    {
+                      "id": "be92ca07-3919-462d-ab0c-9aed6eca3bf9",
+                      "name": "Adopt Me"
+                    }
+                  ]
+                },
+                {
+                  "id": "2bb77581-e6fe-40f0-a122-139055c58284",
+                  "name": "Регион",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "9e648664-ed54-47b9-ac37-c62717e7abce",
+                      "name": "США"
+                    },
+                    {
+                      "id": "8235ea2c-03f1-4f2f-9f4b-ed87a0361ac5",
+                      "name": "Россия"
+                    }
+                  ]
+                },
+                {
+                  "id": "4596805e-33f9-46d9-941f-51b45451ca09",
+                  "name": "Возрастная категория",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "3db4e716-049f-4b3f-a15e-27fdf05a47e8",
+                      "name": "Roblox Select (9-15 лет)"
+                    },
+                    {
+                      "id": "a8911b30-2e33-4923-85df-8cd70db12cdc",
+                      "name": "Roblox Standard (16-17 лет)"
+                    }
+                  ]
+                },
+                {
+                  "id": "35b594bf-6da4-4f28-be7e-edc73e3404a4",
+                  "name": "Robux",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "c1493b5b-54ed-485d-abc5-d26b8222431d",
+                  "name": "Стоимость инвентаря",
+                  "kind": "numeric",
+                  "options": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Minecraft",
+      "slug": "minecraft",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 226,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 825,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Fortnite",
+      "slug": "fortnite",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 251,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 919,
+              "name": "Аренда",
+              "offers_seen": 2,
+              "sample_offer_id": 299155,
+              "price_min": 50.0,
+              "price_low5": [
+                50.0,
+                399.0
+              ],
+              "attributes": [
+                {
+                  "id": "7516404c-e748-4353-adaa-9557a3a17729",
+                  "name": "Платформа",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "6aa0525a-9b13-489f-aae1-a9df307c1cb4",
+                      "name": "(PC) Battle Royale"
+                    }
+                  ]
+                },
+                {
+                  "id": "6b4a4597-33d3-440a-a9d6-a61b81a8f3e9",
+                  "name": "Количество В-баксов",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "b01149c5-79b5-4644-b783-b84e50e7485d",
+                  "name": "Уровень",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "080f8385-62e1-4958-be88-926d453a4092",
+                  "name": "Уровень Battle Pass",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "f63b11b4-d95c-4fe4-84d3-3d025873cb27",
+                  "name": "Скины",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "0531f998-a735-4400-9daa-8e9f34414260",
+                  "name": "Кирки",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "dbff6a6f-d0e4-405b-8019-418a8e9b9e51",
+                  "name": "Танцы",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "3f39cf8c-87b3-4177-9468-50af4487cae3",
+                  "name": "Дельтапланы",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "7f60a998-64a8-4810-9225-ecdf9fadd0b0",
+                  "name": "K/D",
+                  "kind": "numeric",
+                  "options": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Valorant",
+      "slug": "valorant",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 279,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1058,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Dota 2",
+      "slug": "dota-2",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 386,
+          "name": "Аккаунты ",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1632,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Rust",
+      "slug": "rust",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 362,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1515,
+              "name": "Аренда",
+              "offers_seen": 1,
+              "sample_offer_id": 246815,
+              "price_min": 169.0,
+              "price_low5": [
+                169.0
+              ],
+              "attributes": [
+                {
+                  "id": "272d38fe-b095-425f-a776-7419cdae24b0",
+                  "name": "Платформа",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "664a88d5-6d98-4137-8bd0-579f0ee1da5e",
+                      "name": "PC"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Overwatch",
+      "slug": "overwatch",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 371,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1569,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "ARC Raiders",
+      "slug": "arc-raiders",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 309,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1245,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Apex Legends",
+      "slug": "apex-legends",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 452,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1904,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "GTA 5 RP",
+      "slug": "gta-5-rp",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 442,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1854,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Hytale",
+      "slug": "hytale",
+      "type": "GAME",
+      "categories": [
+        {
+          "id": 237,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 870,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Steam",
+      "slug": "steam",
+      "type": "APP",
+      "categories": [
+        {
+          "id": 213,
+          "name": "Аккаунты с играми",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 796,
+              "name": "Аренда",
+              "offers_seen": 14,
+              "sample_offer_id": 252901,
+              "price_min": 1.0,
+              "price_low5": [
+                1.0,
+                1.5,
+                5.5,
+                7.0,
+                9.0
+              ],
+              "attributes": [
+                {
+                  "id": "deff758c-583e-41af-b60c-3fc8a13c4bab",
+                  "name": "Регион",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "a85ec0dc-281c-4f86-8a81-ae2bb20b26ee",
+                      "name": "Другой регион"
+                    },
+                    {
+                      "id": "d10bd3bb-06e0-4d4a-9aae-9a34b3db6d08",
+                      "name": "Казахстан"
+                    },
+                    {
+                      "id": "1655b1d8-1d5c-4a13-8064-4bdd3628acf7",
+                      "name": ""
+                    },
+                    {
+                      "id": "2847db84-340d-4830-aa86-802c9ff26012",
+                      "name": "Украина"
+                    }
+                  ]
+                },
+                {
+                  "id": "99c56500-3ad7-4e19-93af-cda50bb5366b",
+                  "name": "Уровень",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "b53d8b8b-7b1f-4595-a455-972815fbad08",
+                  "name": "",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "a7ca63e2-5c10-43a4-a79f-d42f3bed1cdc",
+                      "name": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "App Store",
+      "slug": "app-store",
+      "type": "APP",
+      "categories": [
+        {
+          "id": 341,
+          "name": "Аккаунты с играми",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1427,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Battle.net",
+      "slug": "battle-net",
+      "type": "APP",
+      "categories": [
+        {
+          "id": 404,
+          "name": "Аккаунты с играми",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1690,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Xbox",
+      "slug": "xbox",
+      "type": "APP",
+      "categories": [
+        {
+          "id": 350,
+          "name": "Аккаунты с играми",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1449,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "PlayStation",
+      "slug": "playstation",
+      "type": "APP",
+      "categories": [
+        {
+          "id": 397,
+          "name": "Аккаунты с играми",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1642,
+              "name": "Аренда",
+              "offers_seen": 84,
+              "sample_offer_id": 293446,
+              "price_min": 175.0,
+              "price_low5": [
+                175.0,
+                175.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "attributes": [
+                {
+                  "id": "e4e697b9-6f1a-42e2-a0fb-e1f386c6a297",
+                  "name": "Регион",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "0a0ec38e-35c4-4a97-b10e-105751f5f41e",
+                      "name": "Турция"
+                    }
+                  ]
+                },
+                {
+                  "id": "0e378815-db19-4642-aaa5-18374d124368",
+                  "name": "Количество платных игр",
+                  "kind": "numeric",
+                  "options": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "PUBG Mobile",
+      "slug": "pubg-mobile",
+      "type": "MOBILE_GAME",
+      "categories": [
+        {
+          "id": 205,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 735,
+              "name": "Аренда",
+              "offers_seen": 1,
+              "sample_offer_id": 298588,
+              "price_min": 109.0,
+              "price_low5": [
+                109.0
+              ],
+              "attributes": [
+                {
+                  "id": "a142b2fe-e6a5-4b8f-84a4-a9654994334f",
+                  "name": "Ранг",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "aba16d32-dbf8-4492-b2b1-d5ef7b09155e",
+                      "name": "Бронза"
+                    }
+                  ]
+                },
+                {
+                  "id": "b9c3b8aa-ddae-483e-a9a2-60bb1add112f",
+                  "name": "Мифические скины",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "4ab76617-f590-4f4f-94fa-df214267f2d7",
+                      "name": "Нет"
+                    }
+                  ]
+                },
+                {
+                  "id": "7fd6a90e-b587-4020-ae17-d5a68bc6d866",
+                  "name": "Прокачиваемые оружия",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "5418ef56-8f9d-414f-a70b-80bfaf78e4a7",
+                      "name": "Нет"
+                    }
+                  ]
+                },
+                {
+                  "id": "fdcb1b02-16a4-4404-b497-fb3d8cf438c4",
+                  "name": "Спорткары",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "0537691d-29f1-4056-a509-326501313447",
+                      "name": "Нет"
+                    }
+                  ]
+                },
+                {
+                  "id": "aee34052-8037-4d24-b042-6182ed7c9eac",
+                  "name": "Килл чаты",
+                  "kind": "option",
+                  "options": [
+                    {
+                      "id": "2c390026-bd78-44bd-92f9-77181c4c9f85",
+                      "name": "Нет"
+                    }
+                  ]
+                },
+                {
+                  "id": "e172900d-9feb-4350-9f39-648ecfbc8bda",
+                  "name": "Уровень",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "c1793fec-7eac-4076-8e66-2df612c1bee8",
+                  "name": "Уровень Metro Royale",
+                  "kind": "numeric",
+                  "options": []
+                },
+                {
+                  "id": "855e924d-0f87-47e1-9a62-85417b8e5332",
+                  "name": "K/D",
+                  "kind": "numeric",
+                  "options": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Mobile Legends",
+      "slug": "mobile-legends",
+      "type": "MOBILE_GAME",
+      "categories": [
+        {
+          "id": 263,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 981,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Black Russia",
+      "slug": "black-russia",
+      "type": "MOBILE_GAME",
+      "categories": [
+        {
+          "id": 272,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1029,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Free Fire",
+      "slug": "free-fire",
+      "type": "MOBILE_GAME",
+      "categories": [
+        {
+          "id": 320,
+          "name": "Аккаунты",
+          "slug": "accounts",
+          "subcategories": [
+            {
+              "id": 1315,
+              "name": "Аренда",
+              "offers_seen": 0,
+              "sample_offer_id": null,
+              "price_min": null,
+              "price_low5": [],
+              "attributes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
